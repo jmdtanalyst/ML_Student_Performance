@@ -1,7 +1,7 @@
 import os
 import sys
-#from src.exception import CustomException
-#from logger import logging;
+from src.exception import CustomException
+from src.logger import logging
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
@@ -19,7 +19,7 @@ class DataIngestion:
     def __init__(self):
         self.ingestion_config=DataIngestionConfig()
         
-# Function initiate_data_ingestion will run scripts to collect the data.
+    # Function initiate_data_ingestion will run scripts to collect the data.
     def initiate_data_ingestion(self):
         logging.info('Enter the data ingestion method')
         try:
@@ -32,7 +32,7 @@ class DataIngestion:
             
             logging.info('Train test split initiated')
             
-            train_set,test_set=train_test_split(df, test_set,0.2,random_state=42)
+            train_set,test_set=train_test_split(df, test_size=0.2,random_state=42)
             train_set.to_csv(self.ingestion_config.train_data_path,index=False, header=True)
             test_set.to_csv(self.ingestion_config.test_data_path,index=False, header=True)
 
