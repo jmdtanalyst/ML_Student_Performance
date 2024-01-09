@@ -3,8 +3,11 @@ numpy
 seaborn
 matplotlib
 scikit-learn
+plotly
+plotly-express
 catboost
 xgboost
 Flask
-
+pandas
 #-e .
+
