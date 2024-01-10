@@ -11,5 +11,6 @@ Flask
 pandas
 dataclasses
 pathlib
+dill
 #-e .
 
