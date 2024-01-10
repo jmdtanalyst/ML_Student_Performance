@@ -30,6 +30,4 @@ if __name__=='__main__':
     except Exception as e:
         logging.info("Error divide by zero")
         raise CustomException(e,sys)
-
-
 '''
