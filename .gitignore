@@ -1,6 +1,7 @@
 #Custom
 _notes.txt
 
+# Enviromments
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -124,6 +125,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+.artifacts/
 .env
 .venv
 env/
