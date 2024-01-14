@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .wrapper {
+            display: flex;
+        }
+
+        #sidebar {
+            min-width: 250px;
+            background: #343a40;
+            color: #fff;
+            transition: all 0.3s;
+        }
+
+        #sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #fff;
+            display: block;
+        }
+
+        #sidebar a:hover {
+            background: #007bff;
+        }
+
+        #content {
+            width: 100%;
+            padding: 70px;
+        }
+
+        .predict {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .header {
+            position: absolute;
+            top: 20px;
+            right: 50%;
+            transform: translateX(50%);
+            color: black;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .features,
+        .models {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .github-link,
+        .linkedin-link {
+            display: block;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+    </style>
+    <title>Student Exam Performance Indicator</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <h1>Jose Mario Costa - ML Engineer</h1>
+    </div>
+
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Menu</h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="predictdata">Prediction</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <h1>Student Exam Performance Indicator</h1>
+            <p>
+                This project aims to predict the performance of students in math exams using various factors, such as writing and reading scores, gender, race or ethnicity, parental level of education, lunch type, and test preparation course. To achieve this, we employed several machine learning models, including random forest, decision tree, gradient boosting, linear regression, XGBoost, CatBoosting, and AdaBoost.
+            </p>
+
+            <div class="features">
+                <h2>Features Used for Prediction</h2>
+                <ul>
+                    <li>Writing Score</li>
+                    <li>Reading Score</li>
+                    <li>Gender</li>
+                    <li>Race or Ethnicity</li>
+                    <li>Parental Level of Education</li>
+                    <li>Lunch Type</li>
+                    <li>Test Preparation Course</li>
+                </ul>
+            </div>
+
+            <div class="models">
+                <h2>Machine Learning Models Employed</h2>
+                <ul>
+                    <li>Random Forest</li>
+                    <li>Decision Tree</li>
+                    <li>Gradient Boosting</li>
+                    <li>Linear Regression</li>
+                    <li>XGBoost</li>
+                    <li>CatBoosting Regressor</li>
+                    <li>AdaBoost Regressor</li>
+                </ul>
+            </div>
+
+            <h2>Predict Your Math Performance</h2>
+            <p>Enter your student's information and let our models predict their potential math performance.</p>
+            <p>Please note that this is just an estimate and may not be an exact representation of your student's actual performance.</p>
+
+            <h3><a href="predictdata">Prediction</a></h3>
+
+            <div class="github-link">
+                <p>View the GitHub Repository:</p>
+                <a href="https://github.com/jmdtanalyst/ML_Student_Performance">https://github.com/jmdtanalyst/ML_Student_Performance</a>
+            </div>
+
+            <div class="linkedin-link">
+                <p>Connect with me on LinkedIn:</p>
+                <a href="www.linkedin.com/in/jmti">www.linkedin.com/in/jmti</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

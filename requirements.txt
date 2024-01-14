@@ -12,5 +12,6 @@ pandas
 dataclasses
 pathlib
 dill
+pickle
 #-e .
 
