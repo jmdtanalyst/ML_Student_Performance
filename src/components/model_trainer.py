@@ -101,7 +101,7 @@ class ModelTrainer:
             
             # If best_model is < 0.6 , that means there isnt any good model for this project.
             if best_model_score<0.6:
-                logging.info(f"Best model not found.")
+                logging.info(f"No best model not found.")
                 raise CustomException("No best model found")
             
             logging.info(f"Best found model on both training and testing dataset")
