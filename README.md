@@ -2,7 +2,7 @@
 
 **Unlocking insights into the factors that influence student test scores.**
 
-This running project you can test here:[(http://mlstudent.jmcloudpro.com:81/](http://mlstudent.jmcloudpro.com:81/).
+This running project you can test here:[(http://mlstudent.jmcloudpro.com/](http://mlstudent.jmcloudpro.com/).
 
 ## Overview
 
